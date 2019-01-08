@@ -1,0 +1,602 @@
+@media screen and (min-width:769px){
+header{
+    background-color: #C9E1F5;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 10px;
+    display:flex;
+    justify-content:space-between;
+    animation-duration: 1S;
+    animation-name:slideInRight;
+}
+html {
+    scroll-behavior: smooth;
+  }
+.header-img{
+    background-image:url('../Image/首頁主視覺.jpg');
+    background-position: center top;
+    background-size:cover;
+    background-attachment: fixed;
+    width: 100%;
+    height:620px;
+    color:black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.header-img h2{
+    font-size: 500%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    animation-delay: 0.5S;
+    animation-duration: 1S;
+    animation-name:bounce;
+    animation-iteration-count: 2;
+    
+}
+.nav a{
+    color:white;
+   line-height: 100%;
+}
+h3 {
+    font-size: 25px;
+    color:white;
+    line-height: 30px;
+}
+
+.nav a:hover{
+    text-decoration: none;
+    color:slateblue;
+}
+.navbar{
+    width: 65%;
+    margin: auto;
+float: none;
+margin-bottom: 150px;
+}
+ul{
+    text-decoration: none;
+    list-style-type:none;   
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Aleo","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #042d40;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+.introduce-bar hr{
+    opacity: 1;
+    border: 0;
+    height: 2px;
+    background: slateblue;
+}
+hr{
+    opacity: 0;
+}
+
+.container{
+    width: 60%;
+    margin: auto;
+    background-color: white；
+}
+
+.col-lg-4{
+    animation-name: BounceIn;
+    animation-duration: 15s;
+    animation-iteration-count:infinite;
+}
+
+.col-lg-4{
+    animation-name: bounceIn;
+    animation-duration: 10s;
+}
+
+ h5{
+font-size: 60px;
+font-family: Kristen ITC;
+display:flex;
+justify-content:center;
+margin: 30px;
+}
+.produce{
+    display: block;
+    margin: auto;
+    text-align: left; 
+    line-height: 55px;
+}
+.produce p{
+    font-size: 24px;
+    font-family: 微軟正黑體;
+    letter-spacing: .1em;
+    
+}
+footer{
+    position: relative;
+    top:200px; 
+    width: 100%;
+    height: 400px;
+    background-color: #C9E1F5;
+}
+footer p{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+}
+.foot{
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+h1{
+    font-size: 90px;
+    color:white;
+    display: flex;
+    justify-content: center;
+    font-family: Berlin Sans FB;
+}
+.foot hr{
+opacity: 1;
+        border:2px solid white;
+        position: relative;
+        top:20px;
+        animation-duration: 5S;
+        animation-name: bounceOut;
+        animation-iteration-count: infinite;
+    width: 30%;
+}
+.foot a{
+    font-family:Berlin Sans FB;
+    color:white;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+} 
+#fountainTextG{
+	width:810px;
+	margin:auto;
+}
+
+.fountainTextG{
+	color:rgb(21,114,214);
+	font-family:Arial;
+	font-size:84px;
+	text-decoration:none;
+	font-weight:normal;
+	font-style:normal;
+	float:left;	
+}
+
+.maps{
+    width: 80%;
+    margin: auto;
+    margin-top:200px; 
+}
+.maps h2{
+   position: absolute;
+   top:250%; 
+   right:35%;
+color: chocolate;
+animation-duration: 1S;
+        animation-name: jello;
+        animation-iteration-count: infinite;
+}
+.maps h3{
+    position: absolute;
+    top:300%;
+    right:35%;
+color:darkgreen;
+animation-duration: 1S;
+        animation-name: rubberBand;
+        animation-iteration-count: infinite;
+}
+.foot p{
+    font-family: Bahnschrift;
+}
+}
+
+@media screen and (min-width:421px) and (max-width:769px){
+    header{
+        background-color: #C9E1F5;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        height: 10px;
+        display:flex;
+        justify-content:space-between;
+        animation-duration: 1S;
+        animation-name:slideInRight;
+    }
+    html {
+        scroll-behavior: smooth;
+      }
+    .header-img{
+        background-image:url('../Image/首頁主視覺.jpg');
+        background-position: center top;
+        background-size:cover;
+        background-attachment: fixed;
+        width: 100%;
+        height:620px;
+        color:black;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+    .header-img h2{
+        font-size: 400%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        animation-delay: 0.5S;
+        animation-duration: 1S;
+        animation-name:bounce;
+        animation-iteration-count: 2;
+        
+    }
+    .nav a{
+        color:white;
+       line-height: 100%;
+    }
+    h3 {
+        font-size: 25px;
+        color:white;
+        line-height: 30px;
+    }
+    
+    .nav a:hover{
+        text-decoration: none;
+        color:slateblue;
+    }
+    .navbar{
+        width: 65%;
+        margin: auto;
+    float: none;
+    margin-bottom: 150px;
+    }
+    ul{
+        text-decoration: none;
+        list-style-type:none;   
+    }
+    .navbar a{
+        text-decoration: none;
+        font-size: 20px;
+        font-family: "Aleo","Helvetica Neue",Helvetica,Arial,sans-serif;
+        color: #042d40;
+        text-transform: uppercase;
+        letter-spacing: .1em;
+    }
+    .introduce-bar hr{
+        opacity: 1;
+        border: 0;
+        height: 2px;
+        background: slateblue;
+    }
+    hr{
+        opacity: 0;
+    }
+    
+    .container{
+        width: 60%;
+        margin: auto;
+        background-color: white；
+    }
+    
+    .col-lg-4{
+        animation-name: BounceIn;
+        animation-duration: 15s;
+        animation-iteration-count:infinite;
+    }
+    
+    .col-lg-4{
+        animation-name: bounceIn;
+        animation-duration: 10s;
+    }
+    
+     h5{
+    font-size: 60px;
+    font-family: Kristen ITC;
+    display:flex;
+    justify-content:center;
+    margin: 30px;
+    }
+    .produce{
+        display: block;
+        margin: auto;
+        text-align: left; 
+        line-height: 55px;
+    }
+    .produce p{
+        font-size: 24px;
+        font-family: 微軟正黑體;
+        letter-spacing: .1em;
+        
+    }
+    footer{
+        position: relative;
+        top:200px; 
+        width: 100%;
+        height: 600px;
+        background-color: #C9E1F5;
+    }
+    footer p{
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        color:white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+    }
+    .foot{
+        width: 50%;
+        height: auto;
+        margin: auto;
+    }
+    h1{
+        font-size: 90px;
+        color:white;
+        display: flex;
+        justify-content: center;
+        font-family: Berlin Sans FB;
+    }
+    .foot hr{
+    opacity: 1;
+            border:2px solid white;
+            position: relative;
+            top:20px;
+            animation-duration: 5S;
+            animation-name: bounceOut;
+            animation-iteration-count: infinite;
+        width: 30%;
+    }
+    .foot a{
+        font-family:Berlin Sans FB;
+        color:white;
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+    } 
+    #fountainTextG{
+        width:810px;
+        margin:auto;
+    }
+    
+    .fountainTextG{
+        color:rgb(21,114,214);
+        font-family:Arial;
+        font-size:84px;
+        text-decoration:none;
+        font-weight:normal;
+        font-style:normal;
+        float:left;	
+    }
+    
+    .maps{
+        width: 80%;
+        margin: auto;
+        margin-top:200px; 
+    }
+    .maps h2{
+       position: absolute;
+       top:250%; 
+       right:35%;
+    color: chocolate;
+    animation-duration: 1S;
+            animation-name: jello;
+            animation-iteration-count: infinite;
+    }
+    .maps h3{
+        position: absolute;
+        top:300%;
+        right:35%;
+    color:darkgreen;
+    animation-duration: 1S;
+            animation-name: rubberBand;
+            animation-iteration-count: infinite;
+    }
+    .foot p{
+        font-family: Bahnschrift;
+    }
+    }
+
+    @media screen and (max-width:600px){
+        header{
+            background-color: #C9E1F5;
+            margin: 0px;
+            padding: 0px;
+            width: 100%;
+            height: 10px;
+            display:flex;
+            justify-content:space-between;
+            animation-duration: 1S;
+            animation-name:slideInRight;
+        }
+        html {
+            scroll-behavior: smooth;
+          }
+        .header-img{
+            background-image:url('../Image/首頁主視覺.jpg');
+            background-position: center top;
+            background-size:cover;
+            background-attachment: fixed;
+            width: 100%;
+            height:620px;
+            color:black;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        .header-img h2{
+            font-size: 200%;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            animation-delay: 0.5S;
+            animation-duration: 1S;
+            animation-name:bounce;
+            animation-iteration-count: 2;
+            
+        }
+        .nav a{
+            color:white;
+           line-height: 100%;
+        }
+        h3 {
+            font-size: 25px;
+            color:white;
+            line-height: 30px;
+        }
+        
+        .nav a:hover{
+            text-decoration: none;
+            color:slateblue;
+        }
+        .navbar{
+            width: 65%;
+            margin: auto;
+        float: none;
+        margin-bottom: 150px;
+        }
+        ul{
+            text-decoration: none;
+            list-style-type:none;   
+        }
+        .navbar a{
+            text-decoration: none;
+            font-size: 20px;
+            font-family: "Aleo","Helvetica Neue",Helvetica,Arial,sans-serif;
+            color: #042d40;
+            text-transform: uppercase;
+            letter-spacing: .1em;
+        }
+        .introduce-bar hr{
+            opacity: 1;
+            border: 0;
+            height: 2px;
+            background: slateblue;
+        }
+        hr{
+            opacity: 0;
+        }
+        
+        .container{
+            width: 60%;
+            margin: auto;
+            background-color: white；
+        }
+        
+        .col-lg-4{
+            animation-name: BounceIn;
+            animation-duration: 15s;
+            animation-iteration-count:infinite;
+        }
+        
+        .col-lg-4{
+            animation-name: bounceIn;
+            animation-duration: 10s;
+        }
+        
+         h5{
+        font-size: 250%;
+        font-family: Kristen ITC;
+        display:flex;
+        justify-content:center;
+        margin: 30px;
+        }
+        .produce{
+            display: block;
+            margin: auto;
+            text-align: left; 
+            line-height: 55px;
+        }
+        .produce p{
+            font-size: 24px;
+            font-family: 微軟正黑體;
+            letter-spacing: .1em;
+            
+        }
+        footer{
+            position: relative;
+            top:200px; 
+            width: 100%;
+            height: 800px;
+            background-color: #C9E1F5;
+        }
+        footer p{
+            display: flex;
+            justify-content: center;
+            font-size: 30px;
+            color:white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+        }
+        .foot{
+            width: 50%;
+            height: auto;
+            margin: auto;
+        }
+        h1{
+            font-size: 90px;
+            color:white;
+            display: flex;
+            justify-content: center;
+            font-family: Berlin Sans FB;
+        }
+        .foot hr{
+        opacity: 1;
+                border:2px solid white;
+                position: relative;
+                top:20px;
+                animation-duration: 5S;
+                animation-name: bounceOut;
+                animation-iteration-count: infinite;
+            width: 30%;
+        }
+        .foot a{
+            font-family:Berlin Sans FB;
+            color:white;
+            display: flex;
+            justify-content: center;
+            font-size: 30px;
+        } 
+        #fountainTextG{
+            width:810px;
+            margin:auto;
+        }
+        
+        .fountainTextG{
+            color:rgb(21,114,214);
+            font-family:Arial;
+            font-size:84px;
+            text-decoration:none;
+            font-weight:normal;
+            font-style:normal;
+            float:left;	
+        }
+        
+        .maps{
+            width: 80%;
+            margin: auto;
+            margin-top:200px; 
+        }
+        .maps h2{
+           position: absolute;
+           top:250%; 
+           right:35%;
+        color: chocolate;
+        animation-duration: 1S;
+                animation-name: jello;
+                animation-iteration-count: infinite;
+        }
+        .maps h3{
+            position: absolute;
+            top:300%;
+            right:35%;
+        color:darkgreen;
+        animation-duration: 1S;
+                animation-name: rubberBand;
+                animation-iteration-count: infinite;
+        }
+        .foot p{
+            font-family: Bahnschrift;
+        }
+        }
